@@ -1,0 +1,1381 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+
+    <!--========= Required meta tags =========-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="CanDen Immigration Services — Anjali Mehta, RCIC. Expert guidance for Express Entry, study & work permits, family sponsorship and employer services. Book a consultation.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact Us - CanDen Immigration Services | Book Your Consultation</title>
+
+    <link rel="shortcut icon" href="assets/img/logo/Main_logo.png" type="images/x-icon"/>
+
+    <!-- css include -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* Fix icon positioning in form fields */
+        .xb-item--field {
+            position: relative;
+        }
+        .xb-item--field span {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            pointer-events: none;
+        }
+        .xb-item--field textarea + span {
+            top: 20px;
+            transform: none;
+        }
+        .xb-item--field input,
+        .xb-item--field textarea {
+            padding-left: 55px !important;
+        }
+        .xb-item--field textarea {
+            padding-top: 15px !important;
+        }
+        /* Hide icon for select dropdown - nice-select adds its own arrow */
+        .xb-select-field > span {
+            display: none !important;
+        }
+        .xb-select-field select,
+        #main-objective {
+            padding-left: 20px !important;
+        }
+        /* Date picker styling */
+        input[type="date"],
+        input[type="text"]#appointment_date {
+            position: relative;
+        }
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            position: absolute;
+            right: 15px;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        input[type="date"]::-webkit-calendar-picker-indicator:hover {
+            opacity: 1;
+        }
+        
+        /* jQuery UI Datepicker - Standard Calendar Styling */
+        .ui-datepicker {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background: white;
+            padding: 0;
+            width: 280px;
+        }
+        .ui-datepicker .ui-datepicker-header {
+            background: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            padding: 8px;
+            position: relative;
+        }
+        .ui-datepicker .ui-datepicker-title {
+            color: #333;
+            font-weight: 600;
+            text-align: center;
+            font-size: 15px;
+        }
+        .ui-datepicker .ui-datepicker-prev,
+        .ui-datepicker .ui-datepicker-next {
+            position: absolute;
+            top: 8px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 3px;
+        }
+        .ui-datepicker .ui-datepicker-prev {
+            left: 8px;
+        }
+        .ui-datepicker .ui-datepicker-next {
+            right: 8px;
+        }
+        .ui-datepicker .ui-datepicker-prev:hover,
+        .ui-datepicker .ui-datepicker-next:hover {
+            background: #f0f0f0;
+        }
+        .ui-datepicker .ui-datepicker-prev span,
+        .ui-datepicker .ui-datepicker-next span {
+            display: block !important;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -6px;
+            margin-top: -6px;
+            width: 0;
+            height: 0;
+            border: solid #666;
+            border-width: 0 2px 2px 0;
+            padding: 0;
+        }
+        .ui-datepicker .ui-datepicker-prev span {
+            transform: rotate(135deg);
+            margin-left: -4px;
+        }
+        .ui-datepicker .ui-datepicker-next span {
+            transform: rotate(-45deg);
+            margin-left: -8px;
+        }
+        .ui-datepicker .ui-datepicker-prev:hover span,
+        .ui-datepicker .ui-datepicker-next:hover span {
+            border-color: #333;
+        }
+        /* Alternative: Use text arrows if CSS arrows don't work */
+        .ui-datepicker .ui-datepicker-prev:after {
+            content: '‹';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: #666;
+            font-weight: bold;
+        }
+        .ui-datepicker .ui-datepicker-next:after {
+            content: '›';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: #666;
+            font-weight: bold;
+        }
+        .ui-datepicker table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+        .ui-datepicker th {
+            padding: 8px;
+            text-align: center;
+            font-weight: 600;
+            color: #666;
+            background: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            font-size: 12px;
+        }
+        .ui-datepicker td {
+            padding: 0;
+            text-align: center;
+        }
+        .ui-datepicker .ui-state-default {
+            border: 1px solid #e0e0e0;
+            background: white;
+            color: #333;
+            padding: 8px;
+            display: block;
+            text-decoration: none;
+            margin: 2px;
+        }
+        .ui-datepicker .ui-state-default:hover {
+            background: #e8f4f8;
+            border-color: #007bff;
+        }
+        .ui-datepicker .available-date {
+            background: white !important;
+            color: #333 !important;
+            font-weight: normal;
+            border-color: #e0e0e0 !important;
+        }
+        .ui-datepicker .available-date:hover {
+            background: #e8f4f8 !important;
+            border-color: #007bff !important;
+        }
+        .ui-datepicker .unavailable-date {
+            background: #f5f5f5 !important;
+            color: #999 !important;
+            text-decoration: line-through;
+            cursor: not-allowed !important;
+            opacity: 0.5;
+        }
+        .ui-datepicker .unavailable-date:hover {
+            background: #f5f5f5 !important;
+            border-color: #e0e0e0 !important;
+        }
+        .ui-datepicker .weekend-disabled {
+            background: #fafafa !important;
+            color: #ccc !important;
+            cursor: not-allowed !important;
+        }
+        .ui-datepicker .ui-state-disabled {
+            opacity: 0.4;
+        }
+        .ui-datepicker .ui-state-active {
+            background: #007bff !important;
+            color: white !important;
+            border-color: #007bff !important;
+            font-weight: 600;
+        }
+        .ui-datepicker .ui-state-active:hover {
+            background: #0056b3 !important;
+            border-color: #0056b3 !important;
+        }
+        
+        /* Time slot dropdown - Standard styling */
+        select#appointment_time {
+            font-size: 15px;
+            padding: 12px 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            color: #333;
+            cursor: pointer;
+        }
+        select#appointment_time:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+        }
+        select#appointment_time option {
+            padding: 10px;
+            font-size: 15px;
+        }
+        select#appointment_time option:disabled {
+            color: #999 !important;
+            background-color: #f5f5f5 !important;
+            font-style: normal;
+            opacity: 0.6;
+        }
+        select#appointment_time option:not(:disabled) {
+            color: #333;
+            background: white;
+        }
+        
+        /* Nice-select disabled option styling */
+        .nice-select .option.disabled,
+        .nice-select .option[data-disabled="true"] {
+            color: #999 !important;
+            background-color: #f5f5f5 !important;
+            cursor: not-allowed !important;
+            opacity: 0.6;
+        }
+        .nice-select .option.disabled:hover,
+        .nice-select .option[data-disabled="true"]:hover {
+            background-color: #f5f5f5 !important;
+        }
+        /* Business hours grid responsive */
+        @media (max-width: 576px) {
+            .business-hours-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+        /* Booking Modal Styles */
+        .booking-modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .booking-modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 40px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .booking-modal-close {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #999;
+            cursor: pointer;
+            line-height: 1;
+        }
+        .booking-modal-close:hover {
+            color: #333;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 991px) {
+            .xb-item--inner[style*="padding-left"] {
+                padding-left: 0 !important;
+                margin-top: 40px;
+            }
+            .booking-modal-content {
+                margin: 10% auto;
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CanDen Immigration Services",
+      "image": "assets/img/logo/Main_logo.png",
+      "@id": "https://candenimmigration.ca",
+      "url": "https://candenimmigration.ca",
+      "telephone": "+19029437506",
+      "email": "info@candenimmigration.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lower Sackville",
+        "addressLocality": "Lower Sackville",
+        "addressRegion": "Nova Scotia",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.78874249647927,
+        "longitude": -63.68688691744614
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Canada"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anjali Mehta",
+      "jobTitle": "Regulated Canadian Immigration Consultant",
+      "worksFor": {
+        "@type": "LocalBusiness",
+        "name": "CanDen Immigration Services"
+      },
+      "telephone": "+19029437506",
+      "email": "info@candenimmigration.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lower Sackville",
+        "addressLocality": "Lower Sackville",
+        "addressRegion": "Nova Scotia",
+        "addressCountry": "CA"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- backtotop - start -->
+    <div class="xb-backtotop">
+        <a href="contact.html#" class="scroll">
+          <i class="far fa-arrow-up"></i>
+        </a>
+    </div>
+    <!-- backtotop - end -->
+
+    <!-- preloader start -->
+    <div id="xb-loadding">
+        <div class="loader">
+            <div class="loader-logo">
+                <img src="assets/img/logo/Main_logo.png" alt="" width="140" height="140">
+            </div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <div class="body_wrap">
+        
+        <!-- header start -->
+        <header class="site-header header-style-one">
+            <div class="header__top-wrap gray-bg">
+                <div class="container">
+                    <div class="header__top ul_li_between">
+                        <div class="header__top-cta">
+                            <img src="assets/img/icon/n_pad.svg" alt=""><span>Help Desk :</span> +19029437506
+                        </div>
+                        <ul class="header__top-info ul_li">
+                            <li><img src="assets/img/icon/time.svg" alt="">Monday - Friday 09:00 am - 05:00 Pm</li>
+                            <li><img src="assets/img/icon/location.svg" alt="">Lower Sackville, Nova Scotia, Canada</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__wrap stricky">
+                <div class="container">
+                    <div class="header__inner ul_li_between">
+                        <div class="header__logo">
+                            <a href="index.html"><img src="assets/img/logo/Main_logo.png" alt="" width="80" height="80"></a>
+                        </div>
+                        <div class="main-menu__wrap ul_li navbar navbar-expand-lg">
+                            <nav class="main-menu collapse navbar-collapse">
+                                <ul>
+                                    <li><a href="index.html"><span>Home</span></a></li>
+                                    <li><a href="about.html"><span>About us</span></a></li>
+                                    <li class="active"><a href="contact.html"><span>Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="xb-hamburger-menu">
+                            <div class="xb-nav-mobile">
+                                <div class="xb-nav-mobile-button"><i class="fal fa-bars"></i></div>
+                            </div>
+                        </div>
+                    <div class="header__action">
+                        <a href="contact.html#contact-form" class="thm-btn book-consultation-btn" style="padding: 12px 30px; font-size: 14px; font-weight: 600;">Book Consultation</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="xb-header-wrap">
+                <div class="xb-header-menu">
+                    <div class="xb-header-menu-scroll">
+                        <div class="xb-menu-close xb-hide-xl xb-close"></div>
+                        <div class="xb-logo-mobile xb-hide-xl">
+                            <a href="index.html" rel="home"><img src="assets/img/logo/Main_logo.png" alt="" width="80" height="80"></a></div>
+                        <nav class="xb-header-nav">
+                            <ul class="xb-menu-primary clearfix">
+                                <li class="menu-item"><a href="index.html"><span>Home</span></a></li>
+                                <li class="menu-item"><a href="about.html"><span>About us</span></a></li>
+                                <li class="menu-item"><a href="contact.html"><span>Contact</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="xb-header-menu-backdrop"></div>
+            </div>
+        </header>
+        <!-- header end -->
+
+         <!-- header search start -->
+        <div class="body-overlay"></div>
+       <main>
+
+        <!-- breadcrumb start -->
+        <section class="breadcrumb pos-rel bg_img" data-background="assets/img/bg/breadcrumb_bg.jpg">
+            <div class="container">
+                <div class="breadcrumb__content">
+                    <h2 class="breadcrumb__title">Contact us</h2>
+                    <ul class="breadcrumb__list clearfix">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item">Contact us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="breadcrumb__circle">
+                <span class="big" data-parallax='{"y" : 100, "scale" : 0.1}'></span>
+                <span class="small" data-parallax='{"y" : 100, "scale" : 0.1}'></span>
+            </div>
+            <div class="breadcrumb__shape">
+                <div class="shape shape--1">
+                    <div class="shape-inner" data-parallax='{"x":-50,"y":80}'>
+                        <img src="assets/img/shape/br_shape1.png" alt="">
+                    </div>
+                </div>
+                <div class="shape shape--2">
+                    <div class="shape-inner" data-parallax='{"x":50,"y":-90}'>
+                        <img src="assets/img/shape/br_shape2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb end -->
+
+        <!-- contact location start -->
+        <section class="contact pt-60 pb-60">
+            <div class="container">
+                <div class="row justify-content-md-center mt-none-30">
+                    <div class="col-lg-12 col-md-12 mt-30">
+                        <div class="xb-contact-info text-center">
+                            <div class="xb-item--flag">
+                                <img src="assets/img/country/img_01.png" alt="">
+                            </div>
+                            <h3 class="xb-item--title"><a href="contact.html#!">Our Location</a></h3>
+                            <div class="xb-item--content">
+                                Lower Sackville, Nova Scotia, <br> Canada
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact location end -->
+
+        <!-- contact form start -->
+        <section id="contact-form" class="contact contact-pt gray-bg pt-60 pb-120">
+            <div class="container">
+                <div class="xb-contact pos-rel">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="xb-item--inner">
+                                <div class="xb-item--holder mb-30">
+                                    <span><img src="assets/img/icon/n_pad.svg" alt="">Book Your Consultation</span>
+                                    <h3 style="font-size: 28px; font-weight: 700; margin-bottom: 15px;">Start Your Canadian Immigration Journey</h3>
+                                    <p style="margin-top: 15px; color: #666; font-size: 15px; line-height: 1.8;">Fill out this short intake form and our licensed RCIC consultant will review your eligibility and contact you within 24-48 hours to discuss your Canadian immigration options.</p>
+                                    <div style="background: #f0f7ff; padding: 15px; border-radius: 8px; margin-top: 20px; border-left: 4px solid var(--color-secondary);">
+                                        <p style="margin: 0; color: #333; font-size: 14px; line-height: 1.6;"><strong>What to expect:</strong> After submitting this form, you'll receive a free 15-minute intake call, followed by an option to book a 60-minute paid strategy consultation.</p>
+                                    </div>
+                                </div>
+                                <form class="xb-item--form contact-from" id="contactForm" method="POST">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="xb-item--field" style="position: relative;">
+                                                <span style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); z-index: 1;"><img src="assets/img/icon/c_user.svg" alt=""></span>
+                                                <input type="text" name="full_name" placeholder="Full Name" required style="padding-left: 55px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="xb-item--field" style="position: relative;">
+                                                <span style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); z-index: 1;"><img src="assets/img/icon/c_mail.svg" alt=""></span>
+                                                <input type="email" name="email" placeholder="Email Address" required style="padding-left: 55px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="xb-item--field" style="position: relative;">
+                                                <span style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); z-index: 1;"><img src="assets/img/icon/c_call.svg" alt=""></span>
+                                                <input type="tel" name="phone" placeholder="Phone Number (Optional)" style="padding-left: 55px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="xb-item--field" style="position: relative;">
+                                                <span style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); z-index: 1;"><img src="assets/img/icon/c_select.svg" alt=""></span>
+                                                <input type="text" name="country_citizenship" placeholder="Country of Citizenship" required style="padding-left: 55px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="xb-item--field" style="position: relative;">
+                                                <span style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); z-index: 1;"><img src="assets/img/icon/c_select.svg" alt=""></span>
+                                                <input type="text" name="current_location" placeholder="Current Location" required style="padding-left: 55px;">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="xb-item--field xb-select-field" style="position: relative;">
+                                                <select name="main_objective" id="main-objective" class="nice-select" required style="padding-left: 20px;">
+                                                    <option value="">Select Main Objective</option>
+                                                    <option value="Work">Work Permit / Work in Canada</option>
+                                                    <option value="Study">Study Permit / Study in Canada</option>
+                                                    <option value="Family">Family Sponsorship</option>
+                                                    <option value="PR">Permanent Residence (PR)</option>
+                                                    <option value="Other">Other Immigration Need</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="xb-item--field" style="position: relative;">
+                                                <span style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); z-index: 1;"><img src="assets/img/icon/c_select.svg" alt=""></span>
+                                                <input type="text" name="appointment_date" id="appointment_date" placeholder="Preferred Appointment Date (dd/mm/yyyy)" required style="padding-left: 55px;" autocomplete="off" readonly>
+                                            </div>
+                                            <small style="display: block; color: #666; margin-top: 5px; font-size: 12px; padding-left: 5px;">Select your preferred date</small>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="xb-item--field xb-select-field" style="position: relative;">
+                                                <select name="appointment_time" id="appointment_time" class="nice-select" required style="padding-left: 20px;">
+                                                    <option value="">Select Time Slot</option>
+                                                    <option value="09:00">9:00 AM</option>
+                                                    <option value="10:00">10:00 AM</option>
+                                                    <option value="11:00">11:00 AM</option>
+                                                    <option value="12:00">12:00 PM</option>
+                                                    <option value="13:00">1:00 PM</option>
+                                                    <option value="14:00">2:00 PM</option>
+                                                    <option value="15:00">3:00 PM</option>
+                                                    <option value="16:00">4:00 PM</option>
+                                                    <option value="17:00">5:00 PM</option>
+                                                </select>
+                                            </div>
+                                            <small style="display: block; color: #666; margin-top: 5px; font-size: 12px; padding-left: 5px;">Available: Mon-Fri, 9 AM - 5 PM</small>
+                                        </div>
+                                       
+                                        <div class="col-12">
+                                            <div class="xb-item--field" style="position: relative;">
+                                                <span style="position: absolute; left: 20px; top: 20px; z-index: 1;"><img src="assets/img/icon/c_message.svg" alt=""></span>
+                                                <textarea name="message" id="message" cols="30" rows="4" maxlength="200"
+                                                            placeholder="Tell us briefly about your situation (max 200 characters)" required style="padding-left: 55px; padding-top: 15px;"></textarea>
+                                                <small style="display: block; text-align: right; color: #999; margin-top: 5px; font-size: 12px;"><span id="char-count">0</span>/200 characters</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div style="display: flex; align-items: flex-start; gap: 12px; padding: 18px; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
+                                                <input type="checkbox" name="consent" id="consent" required style="margin-top: 3px; flex-shrink: 0; width: 18px; height: 18px;">
+                                                <label for="consent" style="font-size: 13px; line-height: 1.7; color: #666; margin: 0; cursor: pointer;">
+                                                    I consent to CanDen Immigration Services contacting me and I acknowledge this does not form legal representation. <a href="privacy-policy.html" style="color: var(--color-secondary); text-decoration: underline;">Privacy Policy</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="thm-btn" type="submit" style="width: 100%; font-size: 16px; padding: 15px 30px; font-weight: 600;">Book Your Consultation</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="xb-item--inner" style="padding-left: 40px;">
+                                <div style="background: white; padding: 40px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+                                    <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 25px; color: #1a1a1a;">Why Choose CanDen Immigration Services?</h3>
+                                    
+                                    <div style="margin-bottom: 25px;">
+                                        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px;">
+                                            <div style="width: 40px; height: 40px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                                <i class="fas fa-check" style="color: white; font-size: 16px;"></i>
+                                            </div>
+                                            <div>
+                                                <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 5px; color: #1a1a1a;">Licensed RCIC Consultant</h4>
+                                                <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0;">Regulated by the College of Immigration & Citizenship Consultants (CICC)</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px;">
+                                            <div style="width: 40px; height: 40px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                                <i class="fas fa-user-check" style="color: white; font-size: 16px;"></i>
+                                            </div>
+                                            <div>
+                                                <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 5px; color: #1a1a1a;">Personalized Service</h4>
+                                                <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0;">One-on-one consultation tailored to your specific immigration goals</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px;">
+                                            <div style="width: 40px; height: 40px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                                <i class="fas fa-clock" style="color: white; font-size: 16px;"></i>
+                                            </div>
+                                            <div>
+                                                <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 5px; color: #1a1a1a;">Quick Response</h4>
+                                                <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0;">We respond to all inquiries within 24-48 hours</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div style="display: flex; align-items: flex-start; gap: 15px;">
+                                            <div style="width: 40px; height: 40px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                                <i class="fas fa-shield-alt" style="color: white; font-size: 16px;"></i>
+                                            </div>
+                                            <div>
+                                                <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 5px; color: #1a1a1a;">Ethical & Transparent</h4>
+                                                <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0;">Honest assessments and clear communication throughout your journey</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div style="border-top: 2px solid #e9ecef; padding-top: 25px; margin-top: 25px;">
+                                        <h4 style="font-size: 18px; font-weight: 600; margin-bottom: 15px; color: #1a1a1a;">Contact Information</h4>
+                                        <div style="margin-bottom: 15px;">
+                                            <p style="margin: 0; color: #666; font-size: 14px; margin-bottom: 5px;"><strong>Phone:</strong></p>
+                                            <a href="tel:+19029437506" style="color: var(--color-secondary); text-decoration: none; font-size: 16px; font-weight: 600;">+1 (902) 943-7506</a>
+                                        </div>
+                                        <div style="margin-bottom: 15px;">
+                                            <p style="margin: 0; color: #666; font-size: 14px; margin-bottom: 5px;"><strong>Email:</strong></p>
+                                            <a href="mailto:info@candenimmigration.ca" style="color: var(--color-secondary); text-decoration: none; font-size: 16px;">info@candenimmigration.ca</a>
+                                        </div>
+                                        <div>
+                                            <p style="margin: 0; color: #666; font-size: 14px; margin-bottom: 5px;"><strong>Location:</strong></p>
+                                            <p style="margin: 0; color: #333; font-size: 14px;">Lower Sackville, Nova Scotia, Canada</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.6106474746803!2d-63.68688691744614!3d44.78874249647927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b59892b478eb733%3A0xbde0e0f3a5e6791!2sCanden%20Immigration%20Services!5e0!3m2!1sen!2sin!4v1766043109348!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact end -->
+
+        <!-- Booking Modal -->
+        <div id="bookingModal" class="booking-modal">
+            <div class="booking-modal-content">
+                <span class="booking-modal-close" id="closeBookingModal">&times;</span>
+                <h2 style="font-size: 28px; font-weight: 700; margin-bottom: 20px; color: #1a1a1a;">Book your consultation with Anjali Mehta, RCIC</h2>
+                <p style="font-size: 16px; color: #666; line-height: 1.8; margin-bottom: 30px;">Select a slot (or request a call). The strategy consultation includes a 60-minute case review and a tailored action plan.</p>
+                
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 15px; color: #1a1a1a;">What's Included:</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="padding: 8px 0; padding-left: 25px; position: relative; color: #666; line-height: 1.8;">
+                            <span style="position: absolute; left: 0; color: var(--color-secondary);">✓</span>
+                            60-minute comprehensive case review
+                        </li>
+                        <li style="padding: 8px 0; padding-left: 25px; position: relative; color: #666; line-height: 1.8;">
+                            <span style="position: absolute; left: 0; color: var(--color-secondary);">✓</span>
+                            Tailored action plan for your immigration pathway
+                        </li>
+                        <li style="padding: 8px 0; padding-left: 25px; position: relative; color: #666; line-height: 1.8;">
+                            <span style="position: absolute; left: 0; color: var(--color-secondary);">✓</span>
+                            Eligibility assessment and next steps
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="contact.html#contact-form" class="thm-btn" style="flex: 1; min-width: 200px; text-align: center; padding: 15px 30px; font-size: 16px; text-decoration: none;">Confirm Booking</a>
+                    <button class="thm-btn thm-btn--white" id="requestAlternateTime" style="flex: 1; min-width: 200px; padding: 15px 30px; font-size: 16px;">Request Alternate Time</button>
+                </div>
+
+                <p style="font-size: 13px; color: #999; line-height: 1.6; margin-top: 25px; padding-top: 20px; border-top: 1px solid #e9ecef; text-align: center;">
+                    By booking you consent to our <a href="privacy-policy.html" style="color: var(--color-secondary); text-decoration: underline;">Terms & Privacy Policy</a>. This consultation does not guarantee success; it is a professional assessment.
+                </p>
+            </div>
+        </div>
+
+       </main>
+
+    <!-- footer start -->
+    <footer class="site-footer gray-bg pt-65">
+        <div class="container">
+            <div class="row mt-none-30 pb-60">
+                <div class="col-lg-4 mt-30 col-md-6 footer__custom-col">
+                    <div class="footer__widget">
+                        <div class="footer__logo mb-30">
+                            <a href="index.html"><img src="assets/img/logo/Main_logo.png" alt="" width="120" height="120"></a>
+                        </div>
+                        <h3 class="widget-title mb-20">Get in Touch</h3>
+                        <p class="mb-25" style="color: #666; line-height: 1.8;">Have questions about Canadian immigration? Our licensed RCIC consultants are here to help you navigate your journey to Canada.</p>
+                        <ul class="footer__cta list-unstyled mt-30">
+                            <li class="ul_li mb-15">
+                                <span><img src="assets/img/icon/f_call.svg" alt=""></span>
+                                <a href="tel:+19029437506" style="color: #333; text-decoration: none;">+1 (902) 943-7506</a>
+                            </li>
+                            <li class="ul_li">
+                                <span><img src="assets/img/icon/f_mail.svg" alt=""></span>
+                                <a href="mailto:info@candenimmigration.ca" style="color: #333; text-decoration: none;">info@candenimmigration.ca</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-30 col-md-6 footer__custom-col">
+                    <div class="footer__widget">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="footer__links list-unstyled">
+                            <li><a href="index.html"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Home</a></li>
+                            <li><a href="about.html"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>About Us</a></li>
+                            <li><a href="contact.html"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Contact</a></li>
+                            <li style="display: none;"><a href="contact.html#privacy-policy"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-30 col-md-6 footer__custom-col">
+                    <div class="footer__widget">
+                        <h3 class="widget-title">Our Services</h3>
+                        <ul class="footer__links list-unstyled">
+                            <li><a href="index.html#visa-types"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Express Entry</a></li>
+                            <li><a href="index.html#visa-types"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Provincial Nominee</a></li>
+                            <li><a href="index.html#visa-types"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Family Sponsorship</a></li>
+                            <li><a href="index.html#visa-types"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Study Permits</a></li>
+                            <li><a href="index.html#visa-types"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Work Permits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-30 col-md-6 footer__custom-col">
+                    <div class="footer__widget">
+                        <h3 class="widget-title">Resources</h3>
+                        <ul class="footer__links list-unstyled">
+                            <li><a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Verify RCIC Licence</a></li>
+                            <li><a href="index.html#faq"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>FAQ</a></li>
+                            <li><a href="contact.html#contact-form"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Book Consultation</a></li>
+                            <li><a href="about.html#team"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Our Team</a></li>
+                            <li><a href="resources.html"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                                        viewBox="0 0 13 13" fill="none">
+                                    <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
+                                          fill="#B1B4BA"/>
+                                    </svg></span>Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div style="padding: 30px 0; border-top: 1px solid #EDF3F5;">
+                            <div style="margin-bottom: 20px;">
+                                <p style="font-size: 14px; line-height: 1.8; margin-bottom: 15px;"><strong>CanDen Immigration Services — Anjali Mehta, RCIC.</strong> Licensed and regulated by the College of Immigration & Citizenship Consultants (CICC). <a href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" target="_blank" rel="noopener noreferrer" style="color: var(--color-secondary); text-decoration: underline; font-weight: 600;">Verify my licence</a> in the College Public Register.</p>
+                                <p style="font-size: 14px; line-height: 1.8; margin-bottom: 15px;"><strong>Privacy:</strong> We respect your privacy. Personal information you provide is used to assess your eligibility and to communicate with you. <a href="privacy-policy.html" style="color: var(--color-secondary); text-decoration: underline; font-weight: 600;">Privacy Policy</a></p>
+                                <p style="font-size: 14px; line-height: 1.8; margin-bottom: 0;"><strong>No guarantee of visa approval.</strong> Advice based on current laws and policy; IRCC decisions are final.</p>
+                            </div>
+                            <div class="footer__copyright-text" style="padding-top: 20px; border-top: 1px solid #EDF3F5; text-align: center;">
+                                Copyright ©2025  ILLUMINATI INNOVATION PRIVATE LIMITED. All rights reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer start -->
+
+    </div>
+
+    <!-- jquery include -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Character counter for message textarea
+        document.addEventListener('DOMContentLoaded', function() {
+            const messageTextarea = document.getElementById('message');
+            const charCount = document.getElementById('char-count');
+            
+            if (messageTextarea && charCount) {
+                messageTextarea.addEventListener('input', function() {
+                    const currentLength = this.value.length;
+                    charCount.textContent = currentLength;
+                    
+                    if (currentLength > 180) {
+                        charCount.style.color = '#ff6b6b';
+                    } else {
+                        charCount.style.color = '#999';
+                    }
+                });
+            }
+
+            // Appointment date and time handling with API integration
+            const appointmentDate = document.getElementById('appointment_date');
+            const appointmentTime = document.getElementById('appointment_time');
+            let availableDates = [];
+            let datePickerInitialized = false;
+            
+            // Initialize jQuery UI Datepicker with standard calendar look
+            if (appointmentDate && typeof $.fn.datepicker !== 'undefined') {
+                $(appointmentDate).datepicker({
+                    dateFormat: 'yy-mm-dd',
+                    minDate: 1, // Minimum date is tomorrow
+                    showOtherMonths: true,
+                    selectOtherMonths: false,
+                    changeMonth: true,
+                    changeYear: true,
+                    showButtonPanel: false,
+                    yearRange: '2025:2027',
+                    firstDay: 1, // Monday as first day
+                    beforeShowDay: function(date) {
+                        // Convert date to YYYY-MM-DD format
+                        const dateStr = $.datepicker.formatDate('yy-mm-dd', date);
+                        const dayOfWeek = date.getDay();
+                        
+                        // Disable weekends (Saturday = 6, Sunday = 0)
+                        if (dayOfWeek === 0 || dayOfWeek === 6) {
+                            return [false, 'weekend-disabled', 'Weekends are not available'];
+                        }
+                        
+                        // Check if date is in available dates list
+                        if (availableDates.length > 0) {
+                            if (availableDates.includes(dateStr)) {
+                                return [true, 'available-date', 'Available'];
+                            } else {
+                                return [false, 'unavailable-date', 'This date is not available'];
+                            }
+                        }
+                        
+                        // If no available dates loaded yet, allow selection (will be validated later)
+                        return [true, '', ''];
+                    },
+                    onSelect: function(dateText) {
+                        // Convert to YYYY-MM-DD format if needed
+                        const selectedDate = dateText;
+                        if (selectedDate) {
+                            fetchAvailableTimeSlots(selectedDate);
+                        } else {
+                            if (appointmentTime) {
+                                appointmentTime.innerHTML = '<option value="">Select Time Slot</option>';
+                            }
+                        }
+                    },
+                    changeMonth: true,
+                    changeYear: true,
+                    showButtonPanel: false,
+                    yearRange: '2025:2027',
+                    firstDay: 1 // Monday as first day
+                });
+                datePickerInitialized = true;
+            }
+            
+            // Fetch available dates on page load
+            fetchAvailableDates();
+            
+            // Refresh available dates every 30 seconds to catch any changes
+            setInterval(function() {
+                fetchAvailableDates();
+            }, 30000); // 30 seconds
+            
+            function fetchAvailableDates() {
+                // Add timestamp to prevent caching
+                fetch('api/get-available-slots.php?t=' + Date.now())
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success && data.dates) {
+                            availableDates = data.dates.map(d => d.date);
+                            
+                            // Update datepicker with new available dates
+                            if (datePickerInitialized && appointmentDate && typeof $.fn.datepicker !== 'undefined') {
+                                // Refresh the datepicker to update disabled dates
+                                $(appointmentDate).datepicker('option', 'beforeShowDay', function(date) {
+                                    const dateStr = $.datepicker.formatDate('yy-mm-dd', date);
+                                    const dayOfWeek = date.getDay();
+                                    
+                                    // Disable weekends
+                                    if (dayOfWeek === 0 || dayOfWeek === 6) {
+                                        return [false, 'weekend-disabled', 'Weekends are not available'];
+                                    }
+                                    
+                                    // Check if date is in available dates list
+                                    if (availableDates.includes(dateStr)) {
+                                        return [true, 'available-date', 'Available'];
+                                    } else {
+                                        return [false, 'unavailable-date', 'This date is not available'];
+                                    }
+                                });
+                                
+                                // Set min and max dates
+                                if (data.dates.length > 0) {
+                                    const firstDate = data.dates[0].date;
+                                    const lastDate = data.dates[data.dates.length - 1].date;
+                                    $(appointmentDate).datepicker('option', 'minDate', firstDate);
+                                    $(appointmentDate).datepicker('option', 'maxDate', lastDate);
+                                }
+                            }
+                            
+                            
+                            // If user has a date selected that's no longer available, clear it
+                            if (appointmentDate && appointmentDate.value && !availableDates.includes(appointmentDate.value)) {
+                                $(appointmentDate).datepicker('setDate', null);
+                                if (appointmentTime) {
+                                    appointmentTime.innerHTML = '<option value="">Select Time Slot</option>';
+                                }
+                            }
+                        }
+                    })
+                    .catch(error => {
+                        // Error fetching available dates
+                    });
+            }
+            
+            function fetchAvailableTimeSlots(date) {
+                // Clear existing options except the first one
+                if (appointmentTime) {
+                    appointmentTime.innerHTML = '<option value="">Loading time slots...</option>';
+                }
+                
+                // Add timestamp to prevent caching
+                fetch(`api/get-available-slots.php?date=${date}&t=${Date.now()}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (appointmentTime) {
+                            appointmentTime.innerHTML = '<option value="">Select Time Slot</option>';
+                            
+                            if (data.success && data.slots && data.slots.length > 0) {
+                                let hasAvailableSlots = false;
+                                
+                                data.slots.forEach(slot => {
+                                    const option = document.createElement('option');
+                                    option.value = slot.time;
+                                    
+                                    // Check availability - must be explicitly true (handle both boolean and string "true")
+                                    const isAvailable = slot.is_available === true || slot.is_available === 1 || slot.is_available === '1' || slot.is_available === 'true';
+                                    const isBooked = slot.is_booked === true || slot.is_booked === 1 || slot.is_booked === '1' || slot.is_booked === 'true';
+                                    
+                                    if (isAvailable && !isBooked) {
+                                        // Available slot - normal display
+                                        option.textContent = slot.time_display;
+                                        option.setAttribute('data-available', 'true');
+                                        hasAvailableSlots = true;
+                                    } else {
+                                        // Unavailable slot - clearly marked and disabled
+                                        option.textContent = slot.time_display + ' - Not Available';
+                                        option.disabled = true;
+                                        option.setAttribute('data-available', 'false');
+                                    }
+                                    
+                                    appointmentTime.appendChild(option);
+                                });
+                                
+                                // If no available slots, show message
+                                if (!hasAvailableSlots) {
+                                    const option = document.createElement('option');
+                                    option.value = '';
+                                    option.textContent = 'No time slots available for this date';
+                                    option.disabled = true;
+                                    appointmentTime.appendChild(option);
+                                }
+                                
+                                // CRITICAL: Update nice-select to reflect disabled options
+                                // nice-select doesn't automatically update when options change
+                                if (typeof $.fn.niceSelect !== 'undefined') {
+                                    // Small delay to ensure DOM is fully updated
+                                    setTimeout(function() {
+                                        // Destroy existing nice-select instance
+                                        if ($(appointmentTime).next('.nice-select').length > 0) {
+                                            $(appointmentTime).niceSelect('destroy');
+                                        }
+                                        // Reinitialize nice-select with updated options
+                                        $(appointmentTime).niceSelect();
+                                        
+                                        // After nice-select is initialized, manually style disabled options
+                                        setTimeout(function() {
+                                            $(appointmentTime).find('option:disabled').each(function() {
+                                                const optionValue = $(this).val();
+                                                const optionText = $(this).text();
+                                                
+                                                // Find the corresponding nice-select option element
+                                                $('.nice-select .option').each(function() {
+                                                    const niceValue = $(this).data('value');
+                                                    const niceText = $(this).text().trim();
+                                                    
+                                                    // Match by value or by text (without " - Not Available")
+                                                    if (niceValue == optionValue || niceText == optionText.split(' - ')[0]) {
+                                                        $(this).addClass('disabled')
+                                                               .css({
+                                                                   'color': '#999',
+                                                                   'background-color': '#f5f5f5',
+                                                                   'cursor': 'not-allowed',
+                                                                   'opacity': '0.6'
+                                                               })
+                                                               .off('click')
+                                                               .on('click', function(e) {
+                                                                   e.preventDefault();
+                                                                   e.stopPropagation();
+                                                                   return false;
+                                                               });
+                                                    }
+                                                });
+                                            });
+                                        }, 50);
+                                    }, 50);
+                                }
+                            } else {
+                                const option = document.createElement('option');
+                                option.value = '';
+                                option.textContent = 'No slots available for this date';
+                                option.disabled = true;
+                                option.style.color = '#999';
+                                appointmentTime.appendChild(option);
+                            }
+                        }
+                    })
+                    .catch(error => {
+                        // Error fetching time slots
+                        if (appointmentTime) {
+                            appointmentTime.innerHTML = '<option value="">Error loading slots. Please try again.</option>';
+                        }
+                    });
+            }
+
+            // Booking Modal functionality
+            const bookingModal = document.getElementById('bookingModal');
+            const closeModal = document.getElementById('closeBookingModal');
+            const requestAlternateBtn = document.getElementById('requestAlternateTime');
+            
+            // Open modal when "Book Consultation" button is clicked
+            const bookConsultationBtns = document.querySelectorAll('.book-consultation-btn, a[href*="contact.html#contact-form"]');
+            bookConsultationBtns.forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    // Only show modal if clicking from header/book consultation buttons, not from form submission
+                    if (!this.closest('form') && this.classList.contains('book-consultation-btn')) {
+                        e.preventDefault();
+                        if (bookingModal) {
+                            bookingModal.style.display = 'block';
+                        }
+                    }
+                });
+            });
+            
+            // Close modal
+            if (closeModal) {
+                closeModal.addEventListener('click', function() {
+                    if (bookingModal) {
+                        bookingModal.style.display = 'none';
+                    }
+                });
+            }
+            
+            // Request alternate time button
+            if (requestAlternateBtn) {
+                requestAlternateBtn.addEventListener('click', function() {
+                    if (bookingModal) {
+                        bookingModal.style.display = 'none';
+                    }
+                    // Scroll to contact form
+                    window.location.href = 'contact.html#contact-form';
+                });
+            }
+            
+            // Close modal when clicking outside
+            if (bookingModal) {
+                window.addEventListener('click', function(e) {
+                    if (e.target === bookingModal) {
+                        bookingModal.style.display = 'none';
+                    }
+                });
+            }
+            
+            // Handle form submission with API
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    // Get DOM elements for form fields
+                    const dateInputElement = document.getElementById('appointment_date');
+                    const timeSelectElement = document.getElementById('appointment_time');
+                    
+                    // Get form data
+                    const formData = new FormData(this);
+                    
+                    // Get date - it should already be in YYYY-MM-DD format from datepicker
+                    let appointmentDate = formData.get('appointment_date');
+                    // If datepicker returns in different format, convert it
+                    if (appointmentDate) {
+                        // Check if it's in YYYY-MM-DD format already
+                        if (!/^\d{4}-\d{2}-\d{2}$/.test(appointmentDate)) {
+                            // Try to convert from other formats
+                            if (appointmentDate.includes('/')) {
+                                const dateParts = appointmentDate.split('/');
+                                if (dateParts.length === 3) {
+                                    // Assume DD/MM/YYYY or MM/DD/YYYY - check which makes sense
+                                    if (dateParts[0].length === 4) {
+                                        // YYYY/MM/DD
+                                        appointmentDate = appointmentDate.replace(/\//g, '-');
+                                    } else if (parseInt(dateParts[2]) > 31) {
+                                        // MM/DD/YYYY
+                                        appointmentDate = `${dateParts[2]}-${dateParts[0]}-${dateParts[1]}`;
+                                    } else {
+                                        // DD/MM/YYYY
+                                        appointmentDate = `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}`;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    // Convert time to HH:MM:SS format if needed
+                    let appointmentTime = formData.get('appointment_time');
+                    if (appointmentTime && !appointmentTime.includes(':')) {
+                        appointmentTime = appointmentTime + ':00';
+                    } else if (appointmentTime && appointmentTime.split(':').length === 2) {
+                        appointmentTime = appointmentTime + ':00';
+                    }
+                    
+                    const data = {
+                        full_name: formData.get('full_name'),
+                        email: formData.get('email'),
+                        phone: formData.get('phone') || null,
+                        country_citizenship: formData.get('country_citizenship') || null,
+                        current_location: formData.get('current_location') || null,
+                        main_objective: formData.get('main_objective') || null,
+                        appointment_date: appointmentDate,
+                        appointment_time: appointmentTime,
+                        message: formData.get('message') || null
+                    };
+                    
+                    // Validate required fields
+                    if (!data.full_name || !data.email || !data.appointment_date || !data.appointment_time) {
+                        alert('Please fill in all required fields.');
+                        return;
+                    }
+                    
+                    // Validate that selected time slot is available (not disabled)
+                    if (timeSelectElement && appointmentTime) {
+                        const selectedOption = timeSelectElement.options[timeSelectElement.selectedIndex];
+                        if (selectedOption && (selectedOption.disabled || selectedOption.getAttribute('data-available') === 'false')) {
+                            alert('The selected time slot is not available. Please select an available time slot.');
+                            timeSelectElement.value = '';
+                            return;
+                        }
+                    }
+                    
+                    // Validate that selected date is available (client-side check)
+                    if (availableDates.length > 0 && !availableDates.includes(data.appointment_date)) {
+                        alert('The selected date is no longer available. Please select another date from the available options.');
+                        if (dateInputElement) {
+                            dateInputElement.value = '';
+                        }
+                        if (timeSelectElement) {
+                            timeSelectElement.innerHTML = '<option value="">Select Time Slot</option>';
+                        }
+                        // Refresh available dates
+                        fetchAvailableDates();
+                        return;
+                    }
+                    
+                    // Show loading state
+                    const submitBtn = this.querySelector('button[type="submit"]');
+                    const originalText = submitBtn.textContent;
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Booking...';
+                    
+                    // Final validation: Double-check with API before submitting
+                    try {
+                        const dateValidation = await fetch(`api/get-available-slots.php?date=${data.appointment_date}&t=${Date.now()}`)
+                            .then(r => r.json())
+                            .catch(() => ({ success: false }));
+                        
+                        if (!dateValidation.success || !dateValidation.slots || dateValidation.slots.length === 0) {
+                            alert('The selected date is no longer available. Please refresh the page and select another date.');
+                            if (dateInputElement) {
+                                dateInputElement.value = '';
+                            }
+                            if (timeSelectElement) {
+                                timeSelectElement.innerHTML = '<option value="">Select Time Slot</option>';
+                            }
+                            submitBtn.disabled = false;
+                            submitBtn.textContent = originalText;
+                            fetchAvailableDates();
+                            return;
+                        }
+                        
+                        // Verify the selected time slot is available
+                        // Convert time to match API format (HH:MM:SS)
+                        let timeToMatch = data.appointment_time;
+                        if (timeToMatch && !timeToMatch.includes(':')) {
+                            timeToMatch = timeToMatch + ':00';
+                        } else if (timeToMatch && timeToMatch.split(':').length === 2) {
+                            timeToMatch = timeToMatch + ':00';
+                        }
+                        
+                        const selectedTimeSlot = dateValidation.slots.find(slot => {
+                            const slotTime = slot.time;
+                            // Match time in various formats
+                            return slotTime === timeToMatch || 
+                                   slotTime === data.appointment_time ||
+                                   slotTime.replace(':00', '') === data.appointment_time.replace(':00', '');
+                        });
+                        
+                        if (!selectedTimeSlot || !selectedTimeSlot.is_available || selectedTimeSlot.is_booked) {
+                            alert('The selected time slot is no longer available. Please select another time.');
+                            if (timeSelectElement) {
+                                timeSelectElement.value = '';
+                            }
+                            submitBtn.disabled = false;
+                            submitBtn.textContent = originalText;
+                            fetchAvailableTimeSlots(data.appointment_date);
+                            return;
+                        }
+                    } catch (error) {
+                        // Date validation error
+                        // Continue with submission, API will handle validation
+                    }
+                    
+                    // Submit to API
+                    fetch('api/book-appointment.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    })
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result.success) {
+                            // Redirect to thank you page
+                            window.location.href = 'thank-you.html';
+                        } else {
+                            alert('Error booking appointment: ' + (result.error || 'Please try again.'));
+                            submitBtn.disabled = false;
+                            submitBtn.textContent = originalText;
+                        }
+                    })
+                    .catch(error => {
+                        // Error occurred
+                        alert('Error booking appointment. Please try again or contact us directly.');
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = originalText;
+                    });
+                });
+            }
+        });
+    </script>
+    
+</body>
+
+</html>
