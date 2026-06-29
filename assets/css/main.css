@@ -5270,7 +5270,16 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 /*----------------------------------------*/
 /*  11. testimonial
 /*----------------------------------------*/
+.xb-testimonial-slider .swiper-wrapper {
+  align-items: stretch; }
+.xb-testimonial-slider .swiper-slide {
+  height: auto; }
+.xb-testimonial-slider .xb-testimonial,
+.xb-testimonial-slider .xb-testimonial .xb-item--inner {
+  height: 100%; }
 .xb-testimonial .xb-item--inner {
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-white);
   box-shadow: 0px 4px 4px 0px #EEEFF4;
   padding: 60px 62px;
@@ -5287,11 +5296,14 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
   margin-bottom: 30px;
   border-bottom: 1px solid #E8EAF3; }
 .xb-testimonial .xb-item--content {
+  flex: 1 1 auto;
   font-size: 20px;
   font-weight: 500;
   line-height: 37.5px;
   color: #4E566D;
   margin-bottom: 40px; }
+.xb-testimonial .xb-item--bottom {
+  margin-top: auto; }
 .xb-testimonial .xb-item--ratting {
   margin-bottom: 10px; }
 .xb-testimonial .xb-item--title {
@@ -5818,6 +5830,36 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     -webkit-transition: 0.3s cubic-bezier(0.67, 0.04, 0.3, 0.91);
     -o-transition: 0.3s cubic-bezier(0.67, 0.04, 0.3, 0.91);
     transition: 0.3s cubic-bezier(0.67, 0.04, 0.3, 0.91); }
+.xb-item--img-graphic {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 615 / 344;
+  background: linear-gradient(135deg, #00CC99 0%, #00a87e 100%); }
+.xb-item--img-graphic::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 45%); }
+.xb-item--img-graphic svg {
+  position: relative;
+  z-index: 1;
+  width: 78px;
+  height: 78px;
+  color: #fff;
+  opacity: 0.95;
+  -webkit-transition: 0.4s cubic-bezier(0.67, 0.04, 0.3, 0.91);
+  -o-transition: 0.4s cubic-bezier(0.67, 0.04, 0.3, 0.91);
+  transition: 0.4s cubic-bezier(0.67, 0.04, 0.3, 0.91); }
+.xb-blog:hover .xb-item--img-graphic svg {
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08); }
+.xb-item--img-graphic.color-2 {
+  background: linear-gradient(135deg, #d4233e 0%, #b4001d 100%); }
+.xb-item--img-graphic.color-3 {
+  background: linear-gradient(135deg, #FE8A3F 0%, #FE6C3F 100%); }
 .xb-blog .xb-item--meta li {
   font-size: 14px;
   font-weight: 500;
